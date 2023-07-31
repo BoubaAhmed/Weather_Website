@@ -1,0 +1,27 @@
+@media (max-width: 480px) {
+
+    .mydiv{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        border-radius: 20px;
+    }
+    .mydiv h1{
+        font-size: 5rem;
+        font-weight: 200;
+    }
+
+}
+.mydiv h1{
+    font-size: 15rem;
+    font-weight: bolder;
+}
+
+
+.mydiv{
+    width: 90%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5rem;
+    margin: 5%;
+}

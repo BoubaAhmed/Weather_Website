@@ -1,0 +1,108 @@
+.app:before{
+    content: '';
+    /* background: url('../assets/image.jpg') no-repeat center center/cover; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+} 
+
+.app{
+    width: 100%;
+    /* height: 110vh; */
+    position: relative;
+    padding: 5rem;
+    padding-top: 1rem;
+    background-color:#F7F1E5;
+    color: rgb(255, 255, 255);
+}
+.container{
+    max-width: 100%;
+    /* height: 90%; */
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    color: black;
+    visibility: inherit;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.homeFooter{
+    color: #000000;
+}
+.loadingData{
+    background-color: #4225b6;
+    color: #ffffff;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 4rem;
+    padding: 4rem;
+    border-radius: 15px;
+}
+@media (max-width: 480px) {
+    .currentData{
+        width: 100%;
+        align-items: center;
+        border-radius: 0px;
+        color: #ffffff;
+        margin: 0px;
+    }
+    .loadingData{
+        background-color: #ffffff00;
+        color: #000000;
+    }
+    .highlights .highlight{
+        background-color: #A0BFE0;
+    }
+    .container{
+        width: 100%;
+        display: block;
+        padding: 0%;
+    }
+    .forecast{
+        display: none;
+    }
+    .nextForcast {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .nextForcast .col {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    .nextForcast .CurrentForcast{
+        position: relative;
+        top: 0;
+        color: #000000;
+        background-color:#ffffff;
+    }
+    .app{
+        padding: 0;
+        background-color:#ffffff;
+        }
+    .homeFooter{
+        display: none;
+    }
+    
+    .footer{
+        color: rgb(255, 255, 255);
+        font-size: 0.8rem;
+    }
+    
+}
+@media (min-width: 480px) {
+    .mobileDisplay{
+        display: none;
+    }
+    .currentDataFooter{
+        display: none;
+    }
+}

@@ -1,0 +1,38 @@
+.currentData{
+    top: 0;
+    overflow: -moz-hidden-unscrollable;
+    padding: 10px;
+    max-width: 27rem;
+    padding-top: 30px;
+    height: max-content;
+    color: #ffffff;
+    background-color: #393053;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+.temperature{
+    padding-top: 1rem;
+    text-align: center;
+}
+.temperature h1{
+    font-size: 5rem;
+}
+form{
+    padding-bottom: 20px;
+}
+
+.custom-select {
+    color: #000000;
+}
+.searchButton{
+font-size: 1.5rem;
+color: #010000;
+}
+
+.searchBar{
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+    margin: auto;
+    display: flex !important;
+    justify-content: center !important;
+}

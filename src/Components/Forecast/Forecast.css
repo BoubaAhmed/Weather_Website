@@ -1,0 +1,58 @@
+.forecast{
+    top: 0;
+    overflow: hidden;
+    padding: 20px;
+    padding-top: 0px;
+    left: 0;
+    padding-left: 1rem;
+    background-color: none;
+    color: #000000;
+    border-radius: 0px 20px 20px 0px;
+}
+.forecast .forecastCol{
+    /* background-color: #DFD7BF; */
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    /* border: 1px solid black; */
+    box-shadow: 2px 10px 20px 1px #176B87;
+    margin: 10px;
+    margin-top: 0px;
+}
+.forecast .forecastCol:hover{
+    background-color: #d6d6d6;
+    padding-top: 0px;
+    animation-name: bounceIn;
+    animation-duration: 1.5s; 
+    animation-timing-function: ease; 
+    animation-iteration-count: infinite;
+}
+
+
+.highlights .highlight{
+    background-color: #393053;
+    width: 30rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 8px 20px 5px white;
+    margin: 10px;
+}
+.highlights .highlight:hover{
+    background-color: #645CAA;
+    box-shadow: 2px 8px 20px 5px #8BF5FA;
+    position: relative;
+    top: -1rem;
+}
+
+@keyframes bounceIn {
+    from {
+        transform: scale(0.9);
+    }
+    50% {
+    transform: scale(1);
+    }
+    to {
+    transform: scale(0.9);
+    }
+}
+
