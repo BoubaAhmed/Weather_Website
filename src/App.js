@@ -13,6 +13,7 @@ export default function App() {
           <Route exact path="/weather-app-react" element={<Home/>} />
           <Route exact path="/current" element={<CurrentData/>} />
           <Route path='*' element={<NotFound/>} />
+          
       </Routes>
       
     </>
