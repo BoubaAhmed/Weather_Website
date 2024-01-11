@@ -159,7 +159,7 @@ export default function Forecast(props) {
                         <img src={AirQualityIcon} height={80} alt="" />
                         <div className="row mt-1" style={{color:'#8BF5FA'}}>
                             <div className="col text-start">
-                                <h4><b>{Data.current.air_quality.co.toFixed(2)}</b></h4>
+                                <h4><b>{Data.current.air_quality.co}</b></h4>
                             </div>
                             <div className="col-md-7 text-end mt-1">
                                 <Air air={Data.current.air_quality.co}/>

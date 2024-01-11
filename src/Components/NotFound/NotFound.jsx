@@ -10,7 +10,7 @@ export default function NotFound() {
               404
             </h1>
             <h6>Page Not found</h6>
-            <a className="mt-5 btn btn-success" href='/'>
+            <a className="mt-5 btn btn-success" href='/weather-app-react'>
               Go Back
             </a>
         </div>

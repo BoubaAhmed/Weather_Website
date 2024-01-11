@@ -23,6 +23,7 @@ export default function Home() {
             try {
                 const response = await axios.get(`https://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${city}&days=7&aqi=yes&alerts=yes`);
                 setWeatherData(response.data);
+                console.log(response.data);
             } catch (error) {
                 console.error('Error:', error);
             }
